@@ -162,9 +162,9 @@ SELECT * FROM us_congress_members
 -- Note in the instructor's computer this is:
 -- You just have to change the FROM argument
 --
--- COPY us_congress_members
--- FROM '/private/tmp/data/us_congress_members.csv'
--- WITH (DELIMITER ',', FORMAT csv, HEADER MATCH);
+COPY us_congress_members
+FROM '/private/tmp/data/us_congress_members.csv'
+WITH (DELIMITER ',', FORMAT csv, HEADER MATCH);
 
 
 
